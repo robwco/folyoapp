@@ -1,5 +1,6 @@
 <header class="logo">
-  <span class="logo-helper"></span><img src="/assets/folyo-logo.png" alt="Folyo" class="logo">
+  <span class="logo-helper"></span>
+  <%= image_tag("folyo-logo.png", :alt => "Folyo", :class => "logo") %>
 </header>
 
 <div class="reading wrap">
@@ -15,7 +16,8 @@
 <div class="reading wrap">	
 	<h5 class="uppercase" style="text-align:center; margin:1em 0 0;">Startups we've helped in the past</h5>
 	
-	<%= image_tag "companies.png" style: "margin: 1em 0 1em; width: 100%" %>
+	<%= image_tag("companies.png", :style => "margin: 1em 0 1em; width: 100%") %>
+
 	
 	<h4 class="uppercase"style="margin-bottom: .5em;">How it works and what we do</h4>
 	
@@ -43,8 +45,7 @@
 
 	<p style="margin: 0 0 2em;" class="offer">If you don't find the right partner for your project, we'll refund your entire purchase and give you a 20% discount on next time. Using Folyo is easy and we'll send your project to over 1,000 high-quality freelancers and agencies. Ready to post your project?</p>
 
-	<center><img src="/assets/risk-free.png" style="margin: 2em 0 3em; width: 130px;"></center>
-
+	<center><%= image_tag("risk-free.png", :style => "margin: 2em 0 3em; width: 130px;") %></center>
 
 	<p class="footer-menu"><a href="#">About</a> <a href="#">Guides</a> <a href="#">Press</a> <a href="#">Partners</a> <a href="#">Blog</a> <a href="#">Relaunch</a> <span style="color: #aaa;">© 2011-2016 Folyo</span></p>
 </div>
