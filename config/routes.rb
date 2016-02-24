@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'site#homepage'
+  get 'welcome' => 'site#welcome'
   
 
   # The priority is based upon order of creation: first created -> highest priority.
